@@ -2,16 +2,26 @@
 <html lang="en">
 {% include head.html %}
 <body>
-	<main>
-		<div>
-			<h1>
-				{{ page.title }}
-			</h1>
-			<p class="paragraph">
-				{{ content }}
-			</p>
+	<div class="container">
+		<div class="mapbox">
+			<div>
+				{% include nav.html %}
+			</div>
 		</div>
-		</section>
-	</main>
+		<aside class="sidebar">
+			<main>
+				<div>
+					<h1>
+						{{ page.title }}
+					</h1>
+					<p class="paragraph">
+						{{ content }}
+					</p>
+				</div>
+				</section>
+			</main>
+		</aside>
+	</div>
 </body>
+
 </html>
