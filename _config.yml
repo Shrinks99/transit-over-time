@@ -17,7 +17,7 @@ title: Transit Over Time
 description: >- # this means to ignore newlines until "baseurl:"
   A visual representation of Toronto's subway construction
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://shrinks99.github.io/transit-over-time/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: shrinks99
 github_username:  Shrinks99
 
