@@ -1,0 +1,7 @@
+# Jekyll Related
+_site/
+.sass-cache/
+.jekyll-metadata
+
+# OS X Wackyness
+.DS_Store
