@@ -40,4 +40,6 @@ body {
 .sidebar {
   background-color: $sidebar;
   height: 100vh;
+	border-left: 0.5em solid;
+	border-color: lighten($sidebar, 30%);
 }
