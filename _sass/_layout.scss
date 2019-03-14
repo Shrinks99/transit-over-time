@@ -15,12 +15,26 @@ body {
   width: 100%;
   display: grid;
   grid-template-columns: 4fr 2fr;
-  grid-template-rows: auto;
+  grid-template-rows: 1fr;
 }
 
 .mapbox {
   background-color: $background;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 9fr 1fr;
+	justify-items: stretch;
+	align-items: stretch;
   height: 100vh;
+	width: 100%;
+}
+
+.map {
+	height: auto;
+}
+
+.timeline {
+	height: auto;
 }
 
 .sidebar {

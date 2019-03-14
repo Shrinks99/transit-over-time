@@ -1,0 +1,40 @@
+.timeline {
+}
+
+.timeline ol {
+  list-style: none;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: 6%;
+  margin-right: 6%;
+  color: white;
+  background-color: lighten($sidebar, 30%);
+}
+
+.timeline li {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0.8em;
+  width: 0.8em;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 4px $background,
+    0 0 0 8px white,
+}
+
+.timeline a {
+  margin-bottom: 5em;
+  font-family: $jost;
+  font-weight: 200;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+
+}
