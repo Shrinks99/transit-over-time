@@ -2,7 +2,11 @@
 	<ol>
 		{% for post in site.posts reversed %}
 		<li>
-			<a href="{{ site.baseurl }}{{ post.title }}">{{ post.title }}</a>
+			<a href="{{ site.baseurl }}{{ post.title }}">
+				<p>
+					{{ post.title }}
+				</p>
+			</a>
 		</li>
 		{% endfor %}
 	</ol>

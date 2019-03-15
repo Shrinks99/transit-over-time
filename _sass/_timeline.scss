@@ -13,7 +13,8 @@
   background-color: lighten($sidebar, 30%);
 }
 
-.timeline li {
+.timeline a {
+  text-decoration: none !important;
   position: relative;
   z-index: 1;
   display: flex;
@@ -28,14 +29,19 @@
     0 0 0 8px white,
 }
 
-.timeline a {
+.timeline a:hover {
+  cursor: pointer;
+  box-shadow:
+    0 0 0 4px $ttcred,
+    0 0 0 8px white,
+}
+
+.timeline p {
   display: block;
-  margin-bottom: 5em;
   font-family: $jost;
+  padding-bottom: 4.2em;
   font-weight: 200;
   letter-spacing: 0.04em;
-  text-decoration: none;
   text-align: center;
   color: white;
-
 }

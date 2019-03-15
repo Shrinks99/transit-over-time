@@ -8,6 +8,7 @@ html {
 body {
  margin: 0;
  padding: 0;
+ background-color: $background;
 }
 
 .container {
@@ -40,6 +41,6 @@ body {
 .sidebar {
   background-color: $sidebar;
   height: 100vh;
-	border-left: 0.5em solid;
+	border-left: 0.6em solid;
 	border-color: lighten($sidebar, 30%);
 }
