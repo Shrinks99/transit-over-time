@@ -1,4 +1,5 @@
 .timeline {
+  margin-bottom: 1em;
 }
 
 .timeline ol {
@@ -37,9 +38,10 @@
 }
 
 .timeline p {
+  position: relative;
+  bottom: 2.1em;
   display: block;
   font-family: $jost;
-  padding-bottom: 4.2em;
   font-weight: 200;
   letter-spacing: 0.04em;
   text-align: center;

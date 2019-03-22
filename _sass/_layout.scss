@@ -9,9 +9,6 @@ body {
  margin: 0;
  padding: 0;
  background-color: $background;
- height: 100%;
- min-height: 100%;
- display: block;
 }
 
 .container {
@@ -48,5 +45,5 @@ body {
   height: 100vh;
 	border-left: 0.6em solid;
 	border-color: lighten($sidebar, 30%);
-	overflow-y: scroll;
+	overflow-y: auto;
 }
