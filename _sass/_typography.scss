@@ -8,6 +8,31 @@
   padding-right: 5%;
 }
 
+.trainimg {
+  margin: 0;
+  margin-bottom: -10px;
+  height: 100%;
+  width: 70%;
+}
+
+.paragraph a {
+  margin: 0;
+  font-family: $opensans;
+  font-weight: 600;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: lighten($sidebar, 50%);
+}
+
+.paragraph a:hover {
+  color: $ttcred;
+}
+
+.paragraph h3 {
+  margin-top: 2em;
+  font-size: 1.5em;
+}
+
 .paragraph {
   font-family: $opensans;
   font-weight: normal;

@@ -23,7 +23,7 @@ body {
   background-color: $background;
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 9fr 1fr;
+	grid-template-rows: 10fr;
 	justify-items: stretch;
 	align-items: stretch;
   height: auto;
@@ -31,7 +31,8 @@ body {
 }
 
 .map {
-	grid-row: 1 / span 6;
+	grid-row-start: 1;
+	grid-row-end: 7;
 	height: auto;
 	display: flex;
 	align-items: center;
@@ -47,8 +48,9 @@ body {
 .timeline {
 	position: relative;
 	height: auto;
-	margin-bottom: 1em;
-	grid-row: 8 / span 1;
+	margin-bottom: 2em;
+	grid-row-start: 7;
+	grid-row-end: 9;
 }
 
 .sidebar {
