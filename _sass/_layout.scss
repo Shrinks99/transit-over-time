@@ -61,3 +61,13 @@ body {
 	border-color: lighten($sidebar, 30%);
 	overflow-y: auto;
 }
+
+.sidebar-divider {
+	background-color: lighten($sidebar, 30%);
+	padding: 0;
+	margin-left: 5%;
+  margin-right: 5%;
+	margin-bottom: 1.4em;
+	height: 0.2em;
+
+}
