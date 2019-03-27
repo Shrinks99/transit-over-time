@@ -33,6 +33,9 @@ body {
 
 .map {
 	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .map img{
