@@ -30,6 +30,10 @@ body {
 	width: 100%;
 }
 
+.blur {
+	filter: blur(20px);
+}
+
 .map {
 	grid-row-start: 1;
 	grid-row-end: 7;
@@ -69,5 +73,8 @@ body {
   margin-right: 5%;
 	margin-bottom: 1.4em;
 	height: 0.2em;
+}
 
+.button-area {
+	display: flex;
 }

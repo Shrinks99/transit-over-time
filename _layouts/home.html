@@ -2,6 +2,28 @@
 <html lang="en">
 {% include head.html %}
 <body>
-
+	<div class="container">
+		<div class="mapbox blur">
+			<div class="map">
+				<img src="img/1954.svg"/>
+			</div>
+			{% include nav.html %}
+		</div>
+		<aside class="sidebar">
+			<main>
+				<div>
+					<h2 class="page-title">
+						Transit Over Time
+					</h2>
+					<div class="sidebar-divider"></div>
+					<div class="paragraph">
+						{{ content }}
+					</div>
+				</div>
+				</section>
+			</main>
+		</aside>
+	</div>
 </body>
+
 </html>
