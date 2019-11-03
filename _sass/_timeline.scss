@@ -6,7 +6,9 @@
   font-size: 1.3em;
   text-align: center;
   color: white;
-
+  @include smallscreen {
+    padding-bottom: 0;
+  }
 }
 
 .timeline ol {
@@ -65,4 +67,8 @@
   letter-spacing: 0.04em;
   text-align: center;
   color: white;
+  @include smallscreen {
+    transform: rotate(-90deg);
+    padding-right: 10em;
+  }
 }
