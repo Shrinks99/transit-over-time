@@ -30,14 +30,6 @@ body {
 	width: 100%;
 }
 
-.blur {
-	filter: blur(20px);
-		-webkit-filter: blur(20px);
-  	-moz-filter: blur(20px);
-  	-o-filter: blur(20px);
-  	-ms-filter: blur(20px);
-}
-
 .map {
 	grid-row-start: 1;
 	grid-row-end: 7;
@@ -46,6 +38,15 @@ body {
 	align-items: center;
 	justify-content: center;
 	grid-row: auto;
+}
+
+.homepagetrains {
+	width: 50%;
+	min-width: 250px;
+	padding: 1em;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 .map img{
