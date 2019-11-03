@@ -21,6 +21,12 @@
   background-color: lighten($sidebar, 30%);
 }
 
+// The div that makes more area clickable
+
+.timeline div {
+  padding: 0.5em;
+}
+
 .timeline a {
   text-decoration: none !important;
   position: relative;

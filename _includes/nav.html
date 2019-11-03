@@ -6,17 +6,21 @@
 			{% if page.title == post.title %}
 			<li>
 				<a href="{{ site.baseurl }}{{ post.title }}" class="currentpage">
-					<p>
-						{{ post.title }}
-					</p>
+					<div>
+						<p>
+							{{ post.title }}
+						</p>
+					</div>
 				</a>
 			</li>
 			{% else %}
 			<li>
 				<a href="{{ site.baseurl }}{{ post.title }}">
-					<p>
-						{{ post.title }}
-					</p>
+					<div>
+						<p>
+							{{ post.title }}
+						</p>
+					</div>
 				</a>
 			</li>
 			{% endif %}
