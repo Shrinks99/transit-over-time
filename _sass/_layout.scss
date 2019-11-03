@@ -9,14 +9,19 @@ body {
  margin: 0;
  padding: 0;
  background-color: $background;
+ overflow-x: hidden;
 }
 
 .container {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: 4fr 2fr;
-  grid-template-rows: 1fr;
+	grid-template-columns: 4fr 2fr;
+	grid-template-rows: 1fr;
+	@include smallscreen {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr, 1fr;
+	}
 }
 
 .mapbox {
@@ -38,6 +43,8 @@ body {
 	align-items: center;
 	justify-content: center;
 	grid-row: auto;
+	margin-left: -1em;
+	margin-right: -1em;
 }
 
 .homepagetrains {
@@ -68,6 +75,11 @@ body {
 	min-height: 100%;
 	border-left: 0.6em solid;
 	border-color: lighten($sidebar, 30%);
+	@include smallscreen {
+		border-left: 0;
+		border-top: 0.6em solid;
+		border-color: lighten($sidebar, 30%);
+	}
 	overflow-y: auto;
 }
 
