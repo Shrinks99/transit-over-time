@@ -75,12 +75,13 @@ body {
 	min-height: 100%;
 	border-left: 0.6em solid;
 	border-color: lighten($sidebar, 30%);
+	overflow-y: auto;
 	@include smallscreen {
+		height: auto;
 		border-left: 0;
 		border-top: 0.6em solid;
 		border-color: lighten($sidebar, 30%);
 	}
-	overflow-y: auto;
 }
 
 .sidebar-divider {
@@ -92,6 +93,11 @@ body {
 	height: 0.2em;
 }
 
-.button-area {
-	display: flex;
+.trainimg {
+  margin: 0;
+  margin-bottom: -10px;
+  height: 100%;
+  width: 70%;
+	min-width: 230px;
+	max-width: 350px;
 }
