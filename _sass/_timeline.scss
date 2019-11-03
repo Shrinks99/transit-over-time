@@ -44,7 +44,7 @@
     background-color: blue;
 }
 
-.timeline a:hover{
+.timeline a:hover, a.currentpage {
   box-shadow:
     0 0 0 4px $ttcred,
     0 0 0 8px white,

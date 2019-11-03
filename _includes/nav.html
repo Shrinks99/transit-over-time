@@ -2,13 +2,23 @@
 	<h1 class="timeline-title">Transit Over Time</h1>
 	<ol>
 		{% for post in site.posts reversed %}
-		<li>
-			<a href="{{ site.baseurl }}{{ post.title }}">
-				<p>
-					{{ post.title }}
-				</p>
-			</a>
-		</li>
+			{% if page.title == post.title %}
+			<li>
+				<a href="{{ site.baseurl }}{{ post.title }}" class="currentpage">
+					<p>
+						{{ post.title }}
+					</p>
+				</a>
+			</li>
+			{% else %}
+			<li>
+				<a href="{{ site.baseurl }}{{ post.title }}">
+					<p>
+						{{ post.title }}
+					</p>
+				</a>
+			</li>
+			{% endif %}
 		{% endfor %}
 	</ol>
 </nav>
